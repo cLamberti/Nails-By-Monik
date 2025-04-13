@@ -1,0 +1,15 @@
+#header-logo{
+  width: 10%;
+}
+#logo {
+  width: 100%;
+}
+.btn{
+  color: white;
+}
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#item-home{
+  text-decoration: none;
+}

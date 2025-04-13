@@ -1,0 +1,49 @@
+.theme{
+    background-color: #d60c48;
+    color: #fff;
+}
+.text-theme,.border-theme{
+    color:#d60c48 !important;
+}
+/*Colores mas claros l-> light*/
+.theme-l1{
+    background-color: #f21758;
+    color: #fff;
+}
+.theme-l2{
+    background-color: #f32a66;
+    color: #fff;
+}
+.theme-l3{
+    background-color: #f43c73;
+    color: #000;
+}
+.theme-l4{
+    background-color: #f54f80;
+    color: #000;
+}
+.theme-l5{
+    background-color: #f6628e;
+    color: #000;
+}
+/*Colores mas oscuros d-> dark*/
+.theme-d1{
+    background-color: #e90d4e;
+    color: #fff;
+}
+.theme-d2{
+    background-color: #d60c48;
+    color: #fff;
+}
+.theme-d3{
+    background-color: #c30b42;
+    color: #fff;
+}
+.theme-d4{
+    background-color: #9e0935;
+    color: #fff;
+}
+.theme-d5{
+    background-color: #790729;
+    color: #fff;
+}
