@@ -30,15 +30,16 @@
 .cards{
   grid-area: content;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap:40px;
+  gap:7%;
+  font-size: 70%;
+  text-align: center;
 }
 .img-card {
   height: 70%;
-  max-width: 100%;
-  object-fit: cover;
-  object-position: center;
+  max-width: 150%;
+  object-fit: cover;  
   border-radius: 12px;
 }
 .card{
@@ -48,8 +49,5 @@
 
   /* border: 2px solid whitesmoke; */
   border-radius: 8px;
-  padding: 30%;
-
-  /* img */
-  background-size: cover;
+  padding: 7%;
 }
