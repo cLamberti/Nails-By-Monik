@@ -2,6 +2,9 @@
     background-color: #d60c48;
     color: #fff;
 }
+.theme-white{
+    background-color: white;
+}
 .text-theme,.border-theme{
     color:#d60c48 !important;
 }

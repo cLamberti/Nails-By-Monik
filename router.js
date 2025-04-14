@@ -1,12 +1,15 @@
 
 $('#menu-home').on('click',function(){
-    routing('index')
+    routing('home')
 })
-$('#menu-clients').on('click',function(){
-    routing('cliente')
+$('#menu-uñas-manos').on('click',function(){
+    routing('manos')
 })
-$('#menu-factura').on('click', function(){
-    routing('factura')
+$('#menu-uñas-pies').on('click', function(){
+    routing('pies')
+})
+$('#menu-servicios').on('click', function(){
+    routing('servicio')
 })
 function routing(route){
     $('#main-content').load('views/'+route+'.html')

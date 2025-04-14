@@ -13,3 +13,43 @@
 #item-home{
   text-decoration: none;
 }
+.img-carousel {
+  height: 50%;
+  max-width: 50%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+}
+#carousel{  
+  border: solid 2px #790729;
+  border-radius: 2cm;
+}
+#navbar{    
+  border-radius: 2cm;
+}
+.cards{
+  grid-area: content;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap:40px;
+}
+.img-card {
+  height: 70%;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /* border: 2px solid whitesmoke; */
+  border-radius: 8px;
+  padding: 30%;
+
+  /* img */
+  background-size: cover;
+}
