@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "catalog": "Catálogo",
+    "hands": "Uñas Manos",
+    "feet": "Uñas Pies",
+    "about": "Nosotros",
+    "agenda": "Agenda",
+    "contact": "Contacto"
+  },
+  "home": {
+    "description_label": "Descripción",
+    "location_label": "Ubicación",
+    "contact_info": "Cómo contactarnos",
+    "description": "Venta de servicios en manicure y pedicure Spa. Uñas acrílicas, gel de calcio, moldeadas, gel X, encapsuladas, semipermanente.",
+    "location": "Bijagua de Upala, Alajuela, Costa Rica. 20 mts al sur de la entrada a las cataratas, Casa rosada."
+  },
+  "catalog": {
+    "title": "Catálogo",
+    "hands_title": "Uñas Manos",
+    "feet_title": "Uñas Pies",
+    "price": "Precio",
+    "book": "Agendar"
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "text": "Somos un salón especializado en manicure y pedicure ubicado en Bijagua de Upala, Costa Rica. Ofrecemos uñas acrílicas, semipermanente, gel de calcio, gel X, encapsuladas y más."
+  },
+  "agenda": {
+    "title": "Agendar Cita",
+    "select_date": "Selecciona una fecha",
+    "select_time": "Selecciona un horario",
+    "no_date": "Selecciona una fecha para ver los horarios disponibles",
+    "go_to_contact": "Continuar al formulario"
+  },
+  "contact": {
+    "title": "Formulario de Contacto",
+    "name": "Nombre completo",
+    "phone": "Teléfono",
+    "service": "Servicio de interés",
+    "notes": "Notas adicionales",
+    "send": "Enviar por WhatsApp",
+    "no_appointment": "Sin cita seleccionada"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados"
+  }
+}

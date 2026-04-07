@@ -1,0 +1,162 @@
+:root {
+    --color-primary: #d60c48;
+    --color-primary-dark: #790729;
+    --color-primary-light: #f21758;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Grande', Geneva, Verdana, sans-serif;
+}
+
+.theme {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+.theme-d4 {
+    background-color: #9e0935;
+    color: #fff;
+}
+
+.btn-primary-custom {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: #fff;
+}
+
+.btn-primary-custom:hover {
+    background-color: var(--color-primary-dark);
+    border-color: var(--color-primary-dark);
+    color: #fff;
+}
+
+.text-primary-custom {
+    color: var(--color-primary) !important;
+}
+
+#navbar {
+    border-radius: 2rem;
+    background-color: var(--color-primary);
+}
+
+/* Grid del catálogo */
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .service-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.service-card {
+    border-radius: 8px;
+    border: 1px solid #eee;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: box-shadow 0.2s;
+}
+
+.service-card:hover {
+    box-shadow: 0 4px 16px rgba(214, 12, 72, 0.15);
+}
+
+.service-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+}
+
+/* Carousel */
+#carousel {
+    border: solid 2px var(--color-primary-dark);
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.img-carousel {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Calendario */
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+}
+
+.calendar-day {
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.15s;
+}
+
+.calendar-day:hover:not(.disabled):not(.empty) {
+    background-color: rgba(214, 12, 72, 0.1);
+}
+
+.calendar-day.selected {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.calendar-day.today {
+    border: 2px solid var(--color-primary);
+    font-weight: bold;
+}
+
+.calendar-day.disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.calendar-day.empty {
+    cursor: default;
+}
+
+/* Slots de hora */
+.time-slot {
+    padding: 0.4rem 0.9rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 6px;
+    cursor: pointer;
+    color: var(--color-primary);
+    background: white;
+    transition: all 0.15s;
+}
+
+.time-slot:hover:not(.taken) {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.time-slot.selected {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.time-slot.taken {
+    background-color: #f5f5f5;
+    color: #aaa;
+    border-color: #ddd;
+    cursor: not-allowed;
+}

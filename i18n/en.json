@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "home": "Home",
+    "catalog": "Catalog",
+    "hands": "Hand Nails",
+    "feet": "Foot Nails",
+    "about": "About",
+    "agenda": "Schedule",
+    "contact": "Contact"
+  },
+  "home": {
+    "description_label": "Description",
+    "location_label": "Location",
+    "contact_info": "How to contact us",
+    "description": "Manicure and Pedicure Spa services. Acrylic nails, calcium gel, molded, gel X, encapsulated, semi-permanent.",
+    "location": "Bijagua de Upala, Alajuela, Costa Rica. 20m south of the waterfall entrance, Pink house."
+  },
+  "catalog": {
+    "title": "Catalog",
+    "hands_title": "Hand Nails",
+    "feet_title": "Foot Nails",
+    "price": "Price",
+    "book": "Book"
+  },
+  "about": {
+    "title": "About Us",
+    "text": "We are a salon specialized in manicure and pedicure in Bijagua de Upala, Costa Rica. We offer acrylic nails, semi-permanent, calcium gel, gel X, encapsulated and more."
+  },
+  "agenda": {
+    "title": "Schedule Appointment",
+    "select_date": "Select a date",
+    "select_time": "Select a time slot",
+    "no_date": "Select a date to see available slots",
+    "go_to_contact": "Continue to form"
+  },
+  "contact": {
+    "title": "Contact Form",
+    "name": "Full name",
+    "phone": "Phone",
+    "service": "Service of interest",
+    "notes": "Additional notes",
+    "send": "Send via WhatsApp",
+    "no_appointment": "No appointment selected"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
+}
